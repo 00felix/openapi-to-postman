@@ -155,5 +155,10 @@
     "test-system": "./node_modules/mocha/bin/mocha -x **/assets/** -x **/test/** \"test/system/**.test.js\"",
     "test-unit": "nyc --reporter=text -x **/assets/** -x **/test/** ./node_modules/mocha/bin/mocha --timeout 90000 \"test/unit/**/**.test.js\""
   },
-  "version": "4.18.0"
+  "version": "4.18.0",
+  "overrides": {
+    "eslint": {
+      "minimatch": "3.1.5"
+    }
+  }
 }
