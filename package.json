@@ -165,6 +165,9 @@
       },
       "minimatch": "3.1.5"
     },
+    "mocha": {
+      "minimatch": "3.1.5"
+    },
     "nyc": {
       "test-exclude": {
         "minimatch": "3.1.5"
